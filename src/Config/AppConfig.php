@@ -29,7 +29,7 @@ final class AppConfig
     public const DB_NAME = 'classroom_lms';
 
   /** @var string Student author name for PHPDoc blocks */
-    public const AUTHOR_NAME = 'Jericho';
+    public const AUTHOR_NAME = 'Haneen';
 
   /**
      * Ensures session is started once per request.
