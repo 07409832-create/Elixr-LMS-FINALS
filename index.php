@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $loginError = $auth->attemptLogin($email, $password);
 
     if ($loginError === null) {
-        $app->redirector()->redirect('dashboard.php');
+        $app->redirector()->redirect('pages/dashboard.php');
     }
 
     $error = $loginError ?? '';
